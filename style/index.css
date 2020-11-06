@@ -1,1 +1,150 @@
-/* Add CSS styling here */
+body {
+    font-size:1.2em;
+}
+nav {
+    height:150px;
+    width:100%;
+    background-color: #454140;
+    color: antiquewhite;
+}
+h1 {
+    font-size: 2em;
+    padding: 3%;
+}
+nav a {
+    margin: 0 0 0 3%;
+}
+a {
+    padding:5px 5px 0;
+    height:25px;
+    width:100px;
+    display: inline-block;
+    background-color: #625750;
+    text-align: center;
+    border-radius: 5px;
+}
+a:link {
+    color:antiquewhite;
+}
+a:visited {
+    color:#bbab9b;
+}
+a:hover {
+    color:#e0e2e4;
+}
+.hero {
+    width: 95%;
+    margin:2.5% auto;
+}
+.heroimg {
+    height: 37vw;
+    width: 55%;
+    background-image: url(https://pro2-bar-s3-cdn-cf3.myportfolio.com/a55d4d1746675cd57b52d644c9e70a5d/e22813b3-a77a-4720-9933-96a761d5fa86_rwc_0x0x325x324x4096.png?h=29d887b8ec195e10a56d7a114c9f5770);
+    background-size: 35%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+.hero h2 {
+    padding: 10vw 0 1%;
+}
+.hero a {
+    margin:1% 0 2%;
+}
+sup {
+    vertical-align: super;
+    font-size: .8em;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.gallery div {
+    width: 20vw;
+    margin: 1vw;
+}
+div p {
+    margin-left: 4%;
+}
+.proimg1 {
+    height: 17vw;
+    width: 100%;
+    background-image: url(https://pro2-bar-s3-cdn-cf1.myportfolio.com/a55d4d1746675cd57b52d644c9e70a5d/25f6e689-2f37-413a-98c2-1f36351255ff_rw_1200.jpg?h=b50443b9abb41c0a4416618e579de570);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.proimg2 {
+    height: 17vw;
+    width: 100%;
+    background-image: url(https://pro2-bar-s3-cdn-cf2.myportfolio.com/a55d4d1746675cd57b52d644c9e70a5d/dfba8270-f496-4d5f-bf07-cf31fab0c88f_rw_1200.jpg?h=205817c54b5cd012ce53c7492d9a0283);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.proimg3 {
+    height: 17vw;
+    width: 100%;
+    background-image: url(https://pro2-bar-s3-cdn-cf.myportfolio.com/a55d4d1746675cd57b52d644c9e70a5d/b4f2d199-9e7d-4f2e-a13d-84c9d41114ca.jpg?h=77875812f46b86af6b0368c552654647);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.proimg4 {
+    height: 17vw;
+    width: 100%;
+    background-image: url(https://pro2-bar-s3-cdn-cf4.myportfolio.com/a55d4d1746675cd57b52d644c9e70a5d/fe915c51-1d7c-4048-8811-9f2b1157d2cd_rw_1200.jpg?h=9cc867de6c67877a7296d6c49002520f);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.proimg5 {
+    height: 17vw;
+    width: 100%;
+    background-image: url(https://pro2-bar-s3-cdn-cf6.myportfolio.com/a55d4d1746675cd57b52d644c9e70a5d/a1e59767-c53e-4cce-8d19-5c7b5c93cce1.jpg?h=bcb107fce131c096ebc8f5826f42e7c9);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.proimg6 {
+    height: 17vw;
+    width: 100%;
+    background-image: url(https://pro2-bar-s3-cdn-cf4.myportfolio.com/a55d4d1746675cd57b52d644c9e70a5d/f59a85e4-c33e-4fbc-8f54-d35d693da6cd_rw_1200.jpg?h=47f405fae308bde58095398f9b7be702);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.proimg7 {
+    height: 17vw;
+    width: 100%;
+    background-image: url(https://pro2-bar-s3-cdn-cf1.myportfolio.com/a55d4d1746675cd57b52d644c9e70a5d/c3ca0a36-3744-4d20-be8f-2d591778b356.jpg?h=1ca33a02ee422ac0564740b985bf6507);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.proimg8 {
+    height: 17vw;
+    width: 100%;
+    background-image: url(https://pro2-bar-s3-cdn-cf4.myportfolio.com/a55d4d1746675cd57b52d644c9e70a5d/57229450-57bf-4f1e-9670-e0d50ce86f5e_rw_1200.jpg?h=5e68b04a41ea0c2b020e2029ce9266b0);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+footer {
+    height:100px;
+    width:100%;
+    background-color: #454140;
+    color: antiquewhite;
+    text-align: center;
+    margin: 5% 0 0;
+}
+footer h2 {
+    padding:2%  0 1%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
