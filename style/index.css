@@ -1,1 +1,236 @@
-/* Add CSS styling here */
+body {
+    font-size:1.2em;
+    font-family: 'Baskervville', serif;
+}
+nav {
+    width:100%;
+    background-color: #454140;
+    color: antiquewhite;
+    padding-bottom: 2.5%;
+}
+h1 {
+    font-size: 2em;
+    padding: 3%;
+}
+nav a {
+    margin: 0 0 0 3%;
+}
+a {
+    padding:5px 5px 0;
+    height:25px;
+    width:100px;
+    display: inline-block;
+    background-color: #625750;
+    text-align: center;
+    border-radius: 5px;
+    border: 1.5px gray solid;
+}
+a:link {
+    color:antiquewhite;
+}
+a:visited {
+    color:#bbab9b;
+}
+a:hover {
+    color:#e0e2e4;
+}
+.hero {
+    width: 95%;
+    margin:2.5% auto;
+    display: flex;
+}
+.heroimg {
+    height: 37vw;
+    width: 55%;
+    background-image: url(https://pro2-bar-s3-cdn-cf3.myportfolio.com/a55d4d1746675cd57b52d644c9e70a5d/e22813b3-a77a-4720-9933-96a761d5fa86_rwc_0x0x325x324x4096.png?h=29d887b8ec195e10a56d7a114c9f5770);
+    background-size: 35%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.herocont {
+    width:48%;
+}
+.herocont p {
+    margin: auto;
+    line-height: 1.2em;
+    font-size: 1em;
+}
+.herocont a {
+    width: 120px;
+}
+.hero h2 {
+    padding: 10vw 0 1%;
+}
+.hero a {
+    margin:1% 0 2%;
+}
+sup {
+    vertical-align: super;
+    font-size: .8em;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.gallery div {
+    width: 20vw;
+    margin: 1vw;
+}
+div p {
+    font-size: .8em;    
+}
+.proimg1 {
+    height: 17vw;
+    width: 100%;
+    background-image: url(/style/portfolio-01.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.proimg2 {
+    height: 17vw;
+    width: 100%;
+    background-image: url(/style/portfolio-02.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.proimg3 {
+    height: 17vw;
+    width: 100%;
+    background-image: url(/style/portfolio-03.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.proimg4 {
+    height: 17vw;
+    width: 100%;
+    background-image: url(/style/portfolio-04.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.proimg5 {
+    height: 17vw;
+    width: 100%;
+    background-image: url(/style/portfolio-05.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.proimg6 {
+    height: 17vw;
+    width: 100%;
+    background-image: url(/style/portfolio-06.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.proimg7 {
+    height: 17vw;
+    width: 100%;
+    background-image: url(/style/portfolio-07.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.proimg8 {
+    height: 17vw;
+    width: 100%;
+    background-image: url(/style/portfolio-08.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+footer {
+    height:20%;
+    padding: 2% 0;
+    width:100%;
+    background-color: #454140;
+    color: antiquewhite;
+    text-align: center;
+    margin: 5% 0 0;
+}
+footer h2 {
+    padding:2%  0 1%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media only screen and (max-width: 800px) {
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    nav h1 {
+        width:100%;
+        padding: 3% 0;
+    }
+    nav a {
+        margin: .5%;
+    }
+    .hero {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .heroimg {
+        width: 100%;
+    }
+    .herocont {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .herocont h2 {
+        padding: 0 0 3%;
+        text-align: center;
+    }
+    .herocont a {
+        width: 120px;
+    }
+    .herocont p {
+        padding: 2%;
+        font-size: .9em;
+        width:70%;
+    }
+    .gallery div {
+        width: 45vw;
+        margin: 1vw 1vw 6%;
+        text-align: center;
+    }
+    footer h2 {
+        padding-top: 5%;
+    }
+    footer {
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    nav {
+        flex-direction: column;
+        background-color: #ffffff;
+    }
+    nav h1 {
+        color: #454140;
+    }
+    a {
+        font-size: .75em;
+        padding-bottom: 1%;
+        height:15px;
+    }
+    .gallery div p {
+        font-size: .75em;
+    }
+}
